@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styleCh3.css">
+  </head>
+  <body>
+    <!-- Main Page -->
+    <div id="main-screen">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container">
+          <a class="navbar-brand text-uppercase fw-bold" id="logo" href="#main-screen">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#main-screen">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Content -->
+      <div class="shadow-bottom">
+        <div class="text-center highlight-text ">
+          <h1 class="text-uppercase content-title" >Play Traditional Game</h1>
+          <p class="content-sub-title">Experience new traditional game play</p>
+          <button type="button" class="btn btn-warning text-uppercase fw-bold button-content play-now" >Play Now</button>
+        </div>
+        <div class="text-center">
+          <p class="text-uppercase" >The Story</p>
+          <a href="#about" id="scroll-down"><img src="images/scroll-down.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <!-- About Page -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <!-- Heading -->
+          <div class="col-4">
+            <p>What's so special?</p>
+            <p class="text-uppercase title">The Games</p>
+          </div>
+          <!-- Carousel -->
+          <div class="col-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/rockpaperstrategy-1600 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/rockpaperstrategy-1600 1.png" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/rockpaperstrategy-1600 1.png" class="d-block w-100 " alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Page -->
+    <div id="features">
+      <div class="container">
+        <div class="row">
+          <!-- Heading -->
+          <div class="col-md-5 offset-sm-7">
+            <p>What's so special?</p>
+            <p class="text-uppercase title">Features</p>
+          </div>
+          <!-- Games Explanation -->
+          <div class="row">
+            <div class="col-1 offset-sm-7">
+              <img src="images/line.png" alt="">
+            </div>
+            <div class="col-4">
+              <div class="">
+                <p class="mt-1 text-uppercase text-warning">Traditional Games</p>
+                <p class="mb-3 description">If you miss your childhood, we provide many traditional games here</p>
+                <p class="text-uppercase text-warning">Game Suit</p>
+                <p class="text-uppercase text-warning">TBD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Requirements Page -->
+    <div id="requirements">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <p class="sub-heading">Can My Computer Run this game?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Heading -->
+            <p class="text-uppercase heading">System Requirements</p>
+            <!-- Requirements Table -->
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td>
+                    <p class="text-warning text-uppercase title">OS:</p>
+                    <p class="sub-title">Windows 7 64-bit only <br> (No OSX support at this time)</p>
+                  </td>
+                  <td>
+                    <p class="text-warning text-uppercase title">Processor:</p>
+                    <p>Intel Core 2 Duo @ 2.4 GHZ or <br> Athlon X2 @ 2.8 GHZ</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="text-warning text-uppercase title">Memory:</p>
+                    <p>4GB RAM</p>
+                  </td>
+                  <td>
+                    <p class="text-warning text-uppercase title">Storage:</p>
+                    <p>8GB available space</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <p class="text-warning text-uppercase title">Graphics</p>
+                    <p>NVIDIA GeForce GTX 660 2GB or <br> AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="quotes-newsletter">
+      <!-- Quotes Page -->
+      <div id="quotes">
+        <div class="container">
+          <div class="row" >
+            <!-- Heading -->
+            <div class="col-md-4" id="title-quotes">
+              <p class="text-uppercase heading">Top Scores</p>
+              <p class="sub-heading">This top score from various games provided on this platform</p>
+              <button type="button" class="btn btn-warning button-content fw-bold">see more</button>
+            </div>
+            <!-- Quotes Images -->
+            <div class="col-md-6" id="quotes-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 offset-md-5">
+                    <img id="quotes-img" src="images/quote-1.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3 offset-md-3">
+                    <img id="quotes-img" src="images/quote-2.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 offset-md-5">
+                    <img id="quotes-img" src="images/quote-3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Newsletter Page -->
+      <div id="newsletter">
+        <div class="container">
+          <div class="row" >
+            <!-- Heading -->
+            <div class="col-md-4">
+              <img id="newsletter-img" src="images/Group3.png" alt="">
+            </div>
+            <!-- Quotes Images -->
+            <div id="newsletter-content" class="col-md-8">
+              <p>Want to stay in touch?</p>
+              <h1 class="text-uppercase">Newsletter Subscribe</h1>
+              <p>In order to start receiving our news, all you have to do it enter your email <br>
+              address. Everything else will be taken care of by us. We will send you emails <br>
+              containing information about game. We don't spam.</p>
+              <form class="row">
+                <div class="col">
+                  <label for="email" class="visually-hidden">Email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Your email address">
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-warning button-content fw-bold ">Subscribe now</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="container">
+      <footer class="py-3 p-4 ">
+        <ul class="nav justify-content-end border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="" class="nav-link ">Main</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link ">Game Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">System Requirements</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Quotes</a>
+          </li>
+          <li class="nav-item" >
+            <img id="social-media" src="images/facebook.png" alt="">
+          </li>
+          <li class="nav-item" >
+            <img id="social-media" src="images/twitter.png" alt="">
+          </li>
+          <li class="nav-item" >
+            <img id="social-media" src="images/youtube.png" alt="">
+          </li>
+          <li class="nav-item" >
+            <img id="social-media" src="images/twitch.png" alt="">
+          </li>
+        </ul>
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-7 credits"><p class="text-muted">&#169; 2018 Your Games, Inc. All Rights Reserved</p></div>
+            <div class="col-md-5 text-uppercase sub-credits"><p class="fw-bold justify-content-end" >Privacy Policy | Terms of Service | Code of Conduct</p></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- modal sign up -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fs-5 text-uppercase fw-bold" id="signUpModalLabel">Sign Up</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-uppercase">
+            <form action="/chapter3" method="post">
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" aria-describedby="username" name="username">
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password">
+              </div>
+              <button type="submit" class="btn btn-warning text-uppercase fw-bold button-content btnSignUp">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

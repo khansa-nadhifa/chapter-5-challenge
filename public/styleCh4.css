@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    background-color: #9C835F;
+}
+
+p{
+    font-family: 'Open Sans';
+    /* font-size: 23px; */
+}
+
+#back{
+    height: 20px;
+}
+
+#logo{
+    height: 40px;
+}
+
+#header{
+    color: #F9B23D;
+}
+
+#challenge{
+    letter-spacing: 1px;
+}
+
+.batu{
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+}
+
+.kertas{
+    height: 80px;
+    width: 70px;
+    padding: 15px;
+}
+
+.gunting{
+    height: 80px;
+    width: 70px;
+    padding: 15px;
+}
+
+.batu:hover, .batu:active, .kertas:hover, .kertas:active, .gunting:hover, .gunting:active, .refresh:hover{
+    background-color: #c4c4c4;
+}
+
+.refresh{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+#vs{
+    color: #BD0000;
+    font-size: 100px;
+}
+
+#humanWin, #comWin{
+    color: white;
+    padding: 30px;
+    background-color: #4C9654;
+    transform: rotate(-10deg);
+    letter-spacing: 1px;
+}
+
+#draw{
+    color: white;
+    padding: 30px;
+    background-color: #035B0C;
+    transform: rotate(-10deg);
+    letter-spacing: 1px;
+}

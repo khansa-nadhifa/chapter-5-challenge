@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+h1, h3, p {
+  color: white;
+}
+
+.shadow-bottom{
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(50, 50, 50, 0.2) 70%
+  );
+  min-height: 100vh;
+}
+
+/* First Page */
+#main-screen {
+  background: url('images/bg-1.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+
+}
+
+#navbar {
+  --bs-bg-opacity: 0.5;
+}
+
+#logo{
+  font-family: 'Open Sans';
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 2em;
+  font-family: 'Open Sans';
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  color: white;
+}
+
+#main-screen .content-title{
+  font-size: 72px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+#main-screen .content-sub-title{
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.button-content{
+  width: 260px;
+  height: 60px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+#main-screen .play-now{
+  margin-bottom: 80px;
+}
+
+/* About Page */
+#about {
+  background: url('images/bg-2.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+#about p{
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#about .title{
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+#about img {
+  margin-top: 30px;
+  height: 300px;
+  
+}
+
+#about .container {
+  padding-top: 150px;
+}
+
+/* Features Page */
+
+#features {
+  background: url('images/bg-3.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+#features p{
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#features .title{
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+#features .row {
+  padding-top: 30px;
+}
+
+#features .description{
+  font-size: 18px;
+  font-style: 'Open Sans';
+}
+
+/* Requirements page */
+
+#requirements {
+  background: url('images/bg-4.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+#requirements .sub-heading{
+  font-size: 14px;
+}
+
+#requirements .heading{
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+#requirements .title{
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: .5px;
+}
+
+#requirements table{
+  border: 0.5px solid;
+}
+
+/* Quotes Page */
+#quotes-newsletter {
+  background: url('images/bg-5.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 200vh;
+}
+
+#title-quotes {
+  padding-top: 200px;
+}
+
+#quotes .heading{
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+#quotes .sub-heading{
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+#quotes-content {
+  padding-top: 70px;
+}
+
+#quotes-img {
+  height: 130px;
+  margin: 10px;
+}
+
+/* Newsletter Page */
+
+#newsletter-img{
+  height: 400px;
+}
+
+#newsletter .row{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#newsletter input{
+  width: 260px;
+  height: 60px;
+  background-color: #979797;
+}
+
+/* Footer */
+
+footer .nav-item{
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+
+footer .credits{
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+footer .sub-credits{
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+
+#social-media{
+  height: 13px;
+  margin-left: 20px;
+}
+ 
+.modal-content{
+  --bs-bg-opacity: 0.8;
+  background-color:#949494;
+  color: white;
+}
+
+.modal-title{
+  font-family: 'Open Sans';
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.modal-body{
+  font-family: 'Open Sans';
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
